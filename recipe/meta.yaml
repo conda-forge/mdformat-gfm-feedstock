@@ -1,5 +1,5 @@
 {% set name = "mdformat-gfm" %}
-{% set version = "0.4.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mdformat_gfm-{{ version }}.tar.gz
-  sha256: e189e728e50cfb15746abc6b3178ca0e2bebbb7a8d3d98fbc9e24bc1a4c65564
+  sha256: d1d49a409a6acb774ce7635c72d69178df7dce1dc8cdd10e19f78e8e57b72623
 
 build:
   number: 0
